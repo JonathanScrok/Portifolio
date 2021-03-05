@@ -1,0 +1,24 @@
+{
+  "name": "tamires-manhaes.github.io",
+  "version": "2.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "server": "live-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamires-manhaes/tamires-manhaes.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamires-manhaes/tamires-manhaes.github.io/issues"
+  },
+  "homepage": "https://github.com/tamires-manhaes/tamires-manhaes.github.io#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
