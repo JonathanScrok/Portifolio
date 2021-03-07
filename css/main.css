@@ -7,27 +7,74 @@ body,*{
   font-size:16px;
   color:#fff;
 }
+/*---------------------------------------------------------------------------------------------*/
 
-.tudo{
-  background-image: url(../img/fundo.jpg)
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
 .botons{
-  font-family: Arial; 
-  color: #0e76a8;
-  background-color: rgb(255, 255, 255);
-  padding: 10px;
-  margin-right: 15px;
-  border-radius:10px;
+  text-decoration: none;
+  color: black;
 }
 
+.menu {
+  font-family: arial;
+  list-style: none;
+}
+
+.imgmenu {
+  width: 40px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.navegacao {
+  width: 350px;
+  height: 100%;
+  left: -350px;
+  position: absolute;
+  transition: all .5s;
+}
+
+input[type="checkbox"]:checked ~ .navegacao{
+
+  transform: translateX(350px);
+}
+
+.menu{
+  top: 74px;
+  position: absolute;
+  width: 100%;
+}
+
+.botons{
+  display: block;
+  padding: 20px 5px;
+  color: white;
+}
+
+.botons:hover{
+  background-color: #0e76a8;
+  color: black;
+}
+
+label {
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tudo{
+  background-size: 100%;
+  background-image: url(../img/fundo.jpg)
+}
 p{
   margin:0;
   line-height:1.5em;
-}
-
-a{
-  text-decoration:none;
 }
 
 li{
@@ -165,8 +212,8 @@ span{
 
 .header-bar .redes-sociais.redes-sociais .social-item .fab,
 .header-bar .redes-sociais.redes-sociais .social-item .fas{
-  font-size: 1.2rem;
-  margin:0 10px;
+  font-size: 1.5rem;
+  margin:0 15px;
   transition:transform 350ms ease
 }
 
@@ -236,7 +283,7 @@ span{
   height:35vh;
   position:relative;
   z-index:1;
-  padding:0 15px;
+  padding:0 10px;
   display:flex;
   align-items:center;
   justify-content:center;

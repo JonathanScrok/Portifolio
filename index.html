@@ -15,16 +15,22 @@
 </head>
 
 <body class="tudo">
-  <a href="#home" id="hero"><i class="fas fa-angle-up"></i></a>
-  <div class="bg-img"></div>
 
   <header class="header-bar">
-    <li class="item"><a href="#home"><strong class="scroll botons">Home</strong></a></li>
-    <li class="item"><a href="#sobre-mim"><strong class="scroll botons">Sobre Mim</strong></a></li>
-    <li class="item"><a href="#conhecimentos"><strong class="scroll botons">Conhecimentos</strong></a></li>
-    <li class="item"><a href="#projetos"><strong class="scroll botons">Projetos</strong></a></li>
-    <li class="item"><a href="#experiencias"><strong class="scroll botons">Experiências</strong></a></li>
-    <li class="item"><a href="#habilidades"><strong class="scroll botons">Habilidades</strong></a></li>
+
+    <input type="checkbox" id="chec">
+    <label for="chec">
+      <img class="imgmenu" src="img/menu.png">
+    </label>
+    <nav class="navegacao">
+      <ul class="menu" style="top: 70px;">
+        <li class="itemenu"><a class="botons" href="#home"><strong>Home</strong></a></li>
+        <li class="itemenu"><a class="botons" href="#experiencias"><strong>Experiências</strong></a></li>
+        <li class="itemenu"><a class="botons" href="#conhecimentos"><strong>Conhecimentos</strong></a></li>
+        <li class="itemenu"><a class="botons" href="#projetos"><strong>Projetos</strong></a></li>
+        <li class="itemenu"><a class="botons" href="#sobre-mim"><strong>Sobre Mim</strong></a></li>
+      </ul>
+    </nav>
 
     <ul class="redes-sociais">
       <li class="social-item">
@@ -55,31 +61,42 @@
     </ul>
   </header>
 
-  <nav class="menu-top NomeFoto" id="home">
+  <div class="menu-top NomeFoto" id="home">
     <section class="home">
       <h1 class="nome" style="margin-top: 40px; margin-bottom: 10px;">Jonathan W. Scrok</h1>
       <div class="img">
         <img src="./img/me.jpeg" class="foto">
       </div>
     </section>
-  </nav>
+  </div>
 
   <main class="documentacao" style="margin-top: 50px;">
     <section class="sobre-mim section wow fadeInUp" id="sobre-mim">
       <div class="container">
         <h2 class="profissao animate__animated animate__bounce">Developer</h2>
         <h1 class="titulo">Sobre Mim</h1>
-        <p class="descricao">Olá, me chamo Jonathan, tenho 20 anos e sou estudante de Sistemas de Informação na <a href="https://www.fesppr.edu.br/" style="font-size:1.2rem;">FESP</a> - Faculdade de ensino superior do Paraná, atualmente faó estágio no BNE - Banco nacional de empregos, lá mexo com C#, JSON, HTML, CSS e atuo também na área de testes automatizados, com RPA(Robotic Process Automation) e Selenium. O BNE está me auxiliando muito na minha evolução, lá aprendo com desenvolvedores já formados, e repasso aos novos integrantes que vão entrando, bom mas eu sou apaixonado por tecnologia e gosto muito dos dois lados: Software e Hardware.
+        <p class="descricao">Olá, me chamo Jonathan, tenho 20 anos e sou estudante de Sistemas de Informação na <a
+            href="https://www.fesppr.edu.br/" style="font-size:1.2rem;">FESP</a> - Faculdade de ensino superior do
+          Paraná, atualmente faó estágio no BNE - Banco nacional de empregos, lá mexo com C#, JSON, HTML, CSS e atuo
+          também na área de testes automatizados, com RPA(Robotic Process Automation) e Selenium. O BNE está me
+          auxiliando muito na minha evolução, lá aprendo com desenvolvedores já formados, e repasso aos novos
+          integrantes que vão entrando, bom mas eu sou apaixonado por tecnologia e gosto muito dos dois lados: Software
+          e Hardware.
         </p>
         <h2 class="subtitulo">Minha Caminhada até aqui</h2>
-        <p class="descricao">Desde o 1º ano do Ensino Médio, já tinha certeza de qual área queria seguir, fiquei focado na área de programação, então em 2018 com 17 anos, entrei na FESP e neste ano de 2021,me formo em S.I para seguir carreira na área. Sonho um dia em trabalhar em uma empresa grande, ou até mesmo, ter minha própria, quem sabe um dia. &#128102
+        <p class="descricao">Desde o 1º ano do Ensino Médio, já tinha certeza de qual área queria seguir, fiquei focado
+          na área de programação, então em 2018 com 17 anos, entrei na FESP e neste ano de 2021,me formo em S.I para
+          seguir carreira na área. Sonho um dia em trabalhar em uma empresa grande, ou até mesmo, ter minha própria,
+          quem sabe um dia. &#128102
         </p>
         <h2 class="subtitulo">Tempo livre</h2>
-        <p class="descricao">Gosto de jogar LOL, CS, FIFA, Valorant, Futebol, Airfsoft, assistir filmes, séries. No meu tempo livre foco em outras coisas que não vejo no trabalho, para dar aquele "reset" e no dia seguinte, voltar a ativa com tudo.
+        <p class="descricao">Gosto de jogar LOL, CS, FIFA, Valorant, Futebol, Airfsoft, assistir filmes, séries. No meu
+          tempo livre foco em outras coisas que não vejo no trabalho, para dar aquele "reset" e no dia seguinte, voltar
+          a ativa com tudo.
         </p>
       </div>
     </section>
-<hr>
+    <hr>
     <section class="experiencias section" id="experiencias">
       <div class="container">
         <h1 class="titulo">Experiências</h1>
@@ -149,7 +166,7 @@
         </ul>
       </div>
     </section>
-<hr>
+    <hr>
     <section class="projetos section" id="projetos">
       <div class="container">
         <h1 class="titulo">Projetos</h1>
@@ -240,7 +257,7 @@
         </ul>
       </div>
     </section>
-<hr>
+    <hr>
     <section class="conhecimentos section" id="conhecimentos">
       <div class="container">
         <h1 class="titulo">Conhecimentos Técnicos</h1>
@@ -334,7 +351,7 @@
         </ul>
       </div>
     </section>
-<hr>
+    <hr>
     <section class="habilidades section" id="habilidades">
       <div class="container">
         <h1 class="titulo">Habilidades e Conhecimentos</h1>
