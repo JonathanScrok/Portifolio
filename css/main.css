@@ -7,7 +7,6 @@ body,*{
   font-size:16px;
   color:#fff;
 }
-/*---------------------------------------------------------------------------------------------*/
 
 * {
   padding: 0px;
@@ -60,6 +59,7 @@ input[type="checkbox"]:checked ~ .navegacao{
 
 .botons:hover{
   background-color: #0e76a8;
+  opacity: 0.3;
   color: black;
 }
 
@@ -191,11 +191,9 @@ span{
   height: 45px;
   padding: 10px 10px;
   z-index: 99999;
-  display: flex;
+  display: end;
   align-items: center;
   flex-direction: row;
-  background: #0e76a8;
-  opacity:0.6;
 }
 
 .header-bar .nome{
@@ -207,14 +205,16 @@ span{
 .header-bar .redes-sociais{
   position: relative;
   display:flex;
+  flex-direction: column;
   align-items:center;
   justify-content:center
 }
 
 .header-bar .redes-sociais.redes-sociais .social-item .fab,
 .header-bar .redes-sociais.redes-sociais .social-item .fas{
-  font-size: 1.5rem;
-  margin:0 15px;
+  font-size: 1.7rem;
+  margin-top: 10px;;
+  margin-right: 5px;
   transition:transform 350ms ease
 }
 
@@ -227,7 +227,6 @@ span{
   margin:0 auto;
   width:100%;
   padding:5px 0;
-  
   position:fixed;
   top:0;
   left:0;
