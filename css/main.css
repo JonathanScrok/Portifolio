@@ -20,7 +20,8 @@ body,*{
 }
 
 .menu {
-  font-family: arial;
+  margin-left: 10px;
+  font-family:"Lexend Deca",sans-serif;
   list-style: none;
 }
 
