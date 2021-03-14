@@ -1,7 +1,7 @@
 {
-  "name": "tamires-manhaes.github.io",
+  "name": "jonathanscrok.github.io",
   "version": "2.0.0",
-  "description": "Personal website",
+  "description": "Portifolio",
   "main": "index.js",
   "scripts": {
     "server": "live-server .",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tamires-manhaes/tamires-manhaes.github.io.git"
+    "url": "git+https://github.com/JonathanScrok/Portifolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tamires-manhaes/tamires-manhaes.github.io/issues"
+    "url": "https://github.com/JonathanScrok/Portifolio.git"
   },
-  "homepage": "https://github.com/tamires-manhaes/tamires-manhaes.github.io#readme",
+  "homepage": "https://github.com/JonathanScrok/Portifolio.git",
   "dependencies": {
     "live-server": "^1.2.1"
   }
