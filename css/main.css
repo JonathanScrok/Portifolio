@@ -2,7 +2,7 @@
 .tudo {
   height: 100%;
   width: 100%;
-  background-color: rgb(26, 25, 25);
+  background-image: url(../img/fundo.jpg)
 }
 
 body, * {
