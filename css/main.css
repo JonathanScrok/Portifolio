@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Roboto:wght@400;700;900&display=swap");
 
+.tudo{
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/fundo.jpg)
+}
+
 body,*{
   margin:0;
   padding:0;
@@ -69,11 +75,6 @@ label {
   z-index: 1;
 }
 
-.tudo{
-  height: 100%;
-  width: 100%;
-  background-image: url(../img/fundo.jpg)
-}
 p{
   margin:0;
   line-height:1.5em;
@@ -213,9 +214,10 @@ span{
 
 .header-bar .redes-sociais.redes-sociais .social-item .fab,
 .header-bar .redes-sociais.redes-sociais .social-item .fas{
-  font-size: 1.7rem;
+  font-size: 2.1rem;
   margin-top: 10px;;
-  margin-right: 5px;
+  margin-right: 10px;
+ 
   transition:transform 350ms ease
 }
 
