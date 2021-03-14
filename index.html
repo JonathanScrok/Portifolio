@@ -18,17 +18,23 @@
   <header class="header-bar">
     <input type="checkbox" id="chec">
     <label for="chec">
-      <img class="imgmenu" src="img/menu.png">
+      <span onclick="openNav()"><img class="imgmenu" src="img/menu.png"></span>
     </label>
-    <nav class="navegacao">
-      <ul class="menu" style="top: 70px;">
+
+    <div class="navegacao" id="menus">
+      <label for="chec">
+        <span onclick="closeNav()" style="float: right;"><img class="imgvoltar" src="img/voltar.png" alt=""></span>
+      </label>
+      <ul class="menu" style="top: 45px;">
         <li class="itemenu"><a class="botons" href="#home"><strong>Home</strong></a></li>
         <li class="itemenu"><a class="botons" href="#sobre-mim"><strong>Sobre Mim</strong></a></li>
         <li class="itemenu"><a class="botons" href="#experiencias"><strong>Experiências</strong></a></li>
         <li class="itemenu"><a class="botons" href="#projetos"><strong>Projetos</strong></a></li>
         <li class="itemenu"><a class="botons" href="#conhecimentos"><strong>Conhecimentos</strong></a></li>
       </ul>
-    </nav>
+    </div>
+
+
     <ul class="redes-sociais" style="float: right;">
       <li class="social-item">
         <a href="https://github.com/JonathanScrok" target="_blank" alt="github">
@@ -63,7 +69,7 @@
     </ul>
   </header>
 
-  <main class="mainDocument">
+  <main class="mainDocument" id="main">
     <div class="menu-top NomeFoto" id="home">
       <section class="home">
         <h1 class="nome" style="margin-top: 40px; margin-bottom: 10px;">Jonathan W. Scrok</h1>
@@ -253,6 +259,18 @@
       </section>
     </div>
   </main>
+
+  <script>
+    function openNav() {
+      document.getElementById("menus").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "230px";
+    }
+
+    function closeNav() {
+      document.getElementById("menus").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+  </script>
 
   <script src="./js/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
