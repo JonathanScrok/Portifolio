@@ -4,7 +4,6 @@
   width: 100%;
   background-image: url("/img/Fundo.png");
   background-color: rgb(6, 6, 37);
-  
 }
 
 body, * {
@@ -25,7 +24,7 @@ body, * {
   color: black;
 }
 
-#main{
+#main {
   transition: margin-left .5s;
 }
 
@@ -33,14 +32,13 @@ body, * {
   height: 100%;
   font-family: "Lexend Deca", sans-serif;
   list-style: none;
-background-color: black;
+  background-color: black;
 }
 
 .imgmenu {
   margin: 10px 10px;
   width: 40px;
 }
-
 
 .imgvoltar {
   margin-left: 200px;
@@ -50,7 +48,6 @@ background-color: black;
 input[type="checkbox"] {
   display: none;
 }
-
 
 .navegacao {
   height: 100%;
@@ -76,7 +73,7 @@ input[type="checkbox"]:checked~.navegacao {
 .botons {
   display: block;
   padding: 20px 10px;
-  color:white;
+  color: white;
   background-color: black;
 }
 
@@ -86,7 +83,7 @@ input[type="checkbox"]:checked~.navegacao {
 }
 
 label {
-  padding: 5px;
+  padding: 0px;
   position: absolute;
 }
 
@@ -107,7 +104,6 @@ span {
   max-width: 1400px;
   width: 100%;
   padding: 5px;
-  
 }
 
 .section {
@@ -210,7 +206,6 @@ span {
   width: 100%;
   height: 45px;
   z-index: 99999;
-  display: end;
   align-items: center;
   flex-direction: row;
 }
